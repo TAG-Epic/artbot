@@ -2,16 +2,10 @@ from nextcord.client.client import Client
 from nextcord.core.http import Route
 from nextcord.flags import Intents
 from os import environ as env
-import logging
-from tre import setup
 from aiohttp import ClientSession
 from asyncio import sleep
 from json import dumps
-from random import choice, randint
-
-setup()
-logging.getLogger().setLevel(logging.ERROR)
-logging.getLogger("nextcord").setLevel(logging.WARN)
+from random import randint
 
 intents = Intents()
 intents.value = 512
