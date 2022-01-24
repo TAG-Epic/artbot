@@ -6,7 +6,7 @@ job "artbot" {
             driver = "docker"
 
             config {
-                image = "ghcr.io/tag-epic/artbot/artbot:9cd4e4013a5dd35f9287b2d722dd33a9e53039ee"
+                image = "ghcr.io/tag-epic/artbot/artbot:e2d7454d7f4a806fae7a2c3e3aefc3b686256270"
             }
 
             resources {
